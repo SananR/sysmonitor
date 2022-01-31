@@ -138,10 +138,7 @@ void sample_display(int samples, int delay, bool system, bool users, bool graphi
 	float vir_samples[samples];
 
 	char model[100];
-
-	//Sample CPU
-	//TODO sample memory
-	//TODO Program memory usage
+	
 	for (int i=0; i<samples; i++) {
 		//Sample self memory usage
 		long int self_memory;
