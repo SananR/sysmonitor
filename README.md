@@ -11,6 +11,6 @@ Simple system monitor utility for Linux written in C
   * -tdelay=: The number of seconds between each sample
   
 ## Example usage: 
-  * - ./sysmonitor -g  ... Monitor with graphical representation
-  * - ./sysmonitor -samples=100 -tdelay=5 ... Take 100 samples with a delay of 5 seconds
-  * - ./sysmonitor 100 5 ... Take 100 samples with a delay of 5 seconds
+  * ./sysmonitor -g  ... Monitor with graphical representation
+  * ./sysmonitor -samples=100 -tdelay=5 ... Take 100 samples with a delay of 5 seconds
+  * ./sysmonitor 100 5 ... Take 100 samples with a delay of 5 seconds
