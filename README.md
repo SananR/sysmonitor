@@ -5,8 +5,9 @@ Simple system monitor utility for Linux written in C
   ./sysmonitor [-s | -u | -g | -samples= | -tdelay=]
 
 ## Flags:
-  * -system: Shows only system usage information
-  * -users: Shows only connected users
+  * -graphics or -g: Displays a graphical representation of data
+  * -system or -s: Shows only system usage information
+  * -users or -u: Shows only connected users
   * -samples=: Specify the number of samples to be taken
   * -tdelay=: The number of seconds between each sample
   
